@@ -155,9 +155,4 @@ contract Transactions {
         require(msg.sender == currentOwner, "Only the current owner can call this function.");
         properties[index].pendingOwner = newOwner;
     }
-
-
-
-
 }
-
