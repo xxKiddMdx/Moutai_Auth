@@ -24,6 +24,7 @@ contract Transactions {
         address pendingOwner;
     }
 
+
     enum Status {NotExist, Approved}
     enum Role {Admin, User}
 
